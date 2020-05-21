@@ -33,7 +33,6 @@ public class IndexController {
 
     @GetMapping("/posts/save")
     public String postsSave() {
-        System.out.println(Role.USER.name());
         return "posts-save";
     }
     @GetMapping("posts/update/{id}")
